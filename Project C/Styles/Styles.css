@@ -1,0 +1,45 @@
+#heading2
+{
+ text-align: right;
+ background-color: yellow;
+}
+
+
+#para2
+
+{
+ text-align: right;
+ color: blue;
+}
+
+
+#java
+
+{
+ text-align: center;
+
+}
+
+
+#javascript
+{
+background-color: black;
+text-align: justify;
+color: grey;
+}
+
+
+#line2
+
+{
+border-width: 4px;
+}
+
+
+#guitar
+
+{
+ width: 250px;
+ height: 200px;
+
+}

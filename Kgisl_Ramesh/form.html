@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Forms</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    
+
+    <center>
+        <h2 style="background-color: tomato">HTML Forms</h2>
+        <br>
+
+<form action="/action_page.php" style="background-color: #FFE9AE">
+    <u><h1>Registration form</h1></u>
+    <form action="Register form">
+    <center><b><label for="FirstName">FirstName :</label></b>
+    <input type="text" name="Fname" id="FirstName" placeholder="First Name">
+    </center>
+    <br>
+    <br>
+    <center><b><label for="LastName">LastName :</label></b>
+    <input type="text" name="Lname" id="LastName" placeholder="Last Name">
+    </center>
+    <br>
+    <br>
+    <center><b><label for="PhoneNumber">PhoneNumber:</label></b>
+    <input type="text" name="Pnumber" id="PhoneNumber">
+    </center>
+    <br>
+    <br>
+    <b><label for="Gender">Gender</label></b>
+    <select name="Gender" id="Gen">
+    <option value="Select">Select</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <button type="button" onclick="submit()">Submit</button>
+    </select>
+    <br>
+    <br>
+    
+    <b><label for="file">Choose a file</label>
+    <input type="file"></b><br>
+    <br>
+    <br>
+    <b><label for="UG">Undergratuate</label>
+    <b><input type="radio" id="UG">
+    <label for="PG">Postgratuate</label>
+    <b><input type="radio" id="PG"></b>
+
+    <br>
+    <br>
+    <label for="single">Single</label>
+    <input type="checkbox" name="single" id="single">
+    <label for="married">Married</label>
+    <input type="checkbox" name="married" id="marrie">
+    
+    
+    <br>
+    <br>
+    
+    <label for="Message"> MessageBox</label>
+    <br>
+    <textarea name="Message" id="Message" cols="20" rows="10" placeholder="Description"></textarea>
+    <br>
+    <br>
+        <button type="button" onclick="alertfunction()">Submit</button>
+        <script>
+            function alertfunction()
+            {
+                alert("Hi Buddy! Successsfully completed the Registration");
+            }
+        </script>
+    </form>
+</center>
+
+    
+</body>
+</html>
